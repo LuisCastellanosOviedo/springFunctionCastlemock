@@ -2,6 +2,7 @@ package com.demoFunction.model;
 
 import lombok.*;
 
+@Setter
 @Getter
 @Builder
 @NoArgsConstructor
