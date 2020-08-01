@@ -5,6 +5,7 @@ import com.demoFunction.model.RequirementResponse;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -23,6 +24,11 @@ public class CompanyServiceImpl implements CompanyService{
                 .date(LocalDate.now())
                 .build();
 
+    }
+
+    @Override
+    public Optional<String> findRequirementByName(RequirementRequest requirementRequest) {
+        return Optional.of("***** REQUIREMENT CONSUMER TEST ********");
     }
 
     private String getRequirementId(final String requirementName) {

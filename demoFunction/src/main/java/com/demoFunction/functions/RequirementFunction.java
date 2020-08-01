@@ -1,4 +1,4 @@
-package com.demoFunction;
+package com.demoFunction.functions;
 
 import com.demoFunction.model.RequirementRequest;
 import com.demoFunction.model.RequirementResponse;
